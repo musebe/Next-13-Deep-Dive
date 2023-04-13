@@ -7,9 +7,9 @@ const ArticleSearch = ({ getSearchResults }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch(`/api/courses/search?query=${query}`);
+    const res = await fetch(`/api/articles/search?query=${query}`);
     const articles = await res.json();
-    getSearchResults(articles ;
+    getSearchResults(articles) ;
   };
 
   return (

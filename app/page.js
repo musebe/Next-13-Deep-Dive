@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import LoadingPage from './loading';
 import Link from 'next/link';
 import Articles from './components/Articles';
+import ArticleSearch from './components/ArticleSearch';
 
 const HomePage = () => {
   const [articles, setArticles] = useState([]);
@@ -25,6 +26,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>Welcome To Musebecodes </h1>
+      <ArticleSearch getSearchResults={(results) => setArticles(results)} />
       <Articles articles={articles} />
     </div>
   );
