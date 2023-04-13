@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Developer Relations: Comparing the Impact of Community and Company Content",
+    "description": "This blog post explores the impact of community and company content in developer relations.",
+    "link": "https://www.musebecodes.dev/blogs/company-community-content",
+    "level": "Beginner"
+  },
+  {
+    "id": 2,
+    "title": "Headless vs Composable Architecture",
+    "description": "Understanding the Differences, Advantages, Disadvantages, and their Role in the MACH Architecture.",
+    "link": "https://www.musebecodes.dev/blogs/composable-headless-comparison",
+    "level": "Intermediate"
+  },
+  {
+    "id": 3,
+    "title": "The Art of Developer Advocacy",
+    "description": "A Comprehensive Guide to Curating a Technical Content Calendar.",
+    "link": "https://www.musebecodes.dev/blogs/devrel-content-calender",
+    "level": "All Levels"
+  },
+  {
+    "id": 4,
+    "title": "Integrating Authentication in Nextjs Applications using Next-Auth",
+    "description": "Integrating authentication into Nextjs applications using Next-Auth.",
+    "link": "https://www.musebecodes.dev/blogs/authentication-in-nextjs",
+    "level": "Intermediate"
+  },
+  {
+    "id": 5,
+    "title": "Building a Progressive Web App (PWA) with Next.js",
+    "description": "Building a Progressive Web App with Next.js",
+    "link": "https://www.musebecodes.dev/blogs/nextjs-pwa-web-app",
+    "level": "Beginner"
+  }
+]
